@@ -57,6 +57,11 @@ button.button:hover {
   color: var(--theme-steel);
 }
 
+button.button:focus {
+  background: var(--theme-blue-hover);
+  color: var(--theme-steel);
+}
+
 .preact-hint:after {
   border: 10px solid transparent;
   border-bottom: none;
@@ -129,4 +134,4 @@ pre {
 }
 
 
-/*# sourceMappingURL=ssr-bundle.ec645.css.map*/
+/*# sourceMappingURL=ssr-bundle.bb956.css.map*/
