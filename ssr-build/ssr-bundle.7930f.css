@@ -4,6 +4,8 @@
   --theme-blue: #225862;
   --theme-blue-hover: #428892;
   --theme-steel: #ededed;
+
+  --container-max-width: 960px;
 }
 
 html {
@@ -42,6 +44,10 @@ html {
       border-color: #bbb;
       color: var(--theme-navy);
     }
+
+.main-content .container {
+    max-width: var(--container-max-width);
+  }
 
 .main-content h3,
   .main-content h4 {
@@ -82,6 +88,7 @@ html {
     padding: 0.8rem;
     background-color: #ddd;
     border: 1px solid #aaa;
+    max-width: var(--container-max-width);
   }
 
 .footer {
@@ -135,4 +142,4 @@ html {
 }
 
 
-/*# sourceMappingURL=ssr-bundle.c92f2.css.map*/
+/*# sourceMappingURL=ssr-bundle.7930f.css.map*/
